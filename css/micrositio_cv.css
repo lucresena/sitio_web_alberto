@@ -1,0 +1,1350 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@200&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/pattern.jpg);
+}
+
+main{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #6b8399;
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background-image: url(../img/reflejo.png);
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #BF3A3E;
+}
+
+section{
+	width: 100%;
+	background-color: #faffd4;
+}
+
+footer{
+	width: 100%;
+	height: 55px;
+	background-color: #43a1f5;
+}
+
+#header-alberto{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 3%;
+}
+
+#header-alberto a{
+	text-decoration: none;
+	color: #faffd4;
+	text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+}
+
+#menu{
+	text-align: center;
+	padding-top: 20px;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li a{
+	font-size: 19px;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;	
+	color: #faffd4;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#menu p{
+	font-size: 30px;
+	text-decoration: none;
+	float: left;
+	padding-top: 8px;
+	padding-left: 20px;
+	color: #faffd4;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*INDEX*/
+/*INDEX*/
+/*INDEX*/
+
+.yo{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #BF3A3E;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 1.5%;
+}
+
+.prod{
+	font-size: 60px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #BF3A3E;
+	text-align: center;
+	padding-bottom: 1.5%;
+}
+
+.nat{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #BF3A3E;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+.up{
+	float: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	opacity: 0.7;
+	border:none 0px #000000;
+	border-radius: 11px;
+}
+
+#pie a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #faffd4;
+	font-weight: bold;
+}
+
+#pie{
+	padding-top: 17px;
+	text-align: center;
+}
+
+/*RELEVAMIENTO*/
+/*RELEVAMIENTO*/
+/*RELEVAMIENTO*/
+
+.titulo{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #BF3A3E;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#pdf{
+	width: 68%;
+	height: 65vh;
+	margin-left: 17%;
+	margin-top: 3%;
+	margin-bottom: 70px;
+}
+
+/*DISENO*/
+/*DISENO*/
+/*DISENO*/
+
+.tipografia_uno{
+	width: 95%;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 3%;
+	text-align: center;
+}
+
+.tipografia_uno h2{
+	font-size: 21px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tipografia_uno p{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tipografia_dos{
+	width: 95%;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 3%;
+	text-align: center;
+}
+
+.tipografia_dos h2{
+	font-size: 21px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.tipografia_dos p{
+	font-size: 18px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#colores{
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+#colores li{
+	display: inline;
+}
+
+/*WEB*/
+/*WEB*/
+/*WEB*/
+
+iframe{
+	width: 70%;
+	height: 80vh;
+	margin-bottom: 70px;
+	margin-top: 50px;
+	margin-left: 16%;
+}
+
+/*1400*/
+/*1400*/
+/*1400*/
+/*1400*/
+/*1400*/
+/*1400*/
+/*1400*/
+/*1400*/
+
+@media(min-width: 1400px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #6b8399;
+	}
+
+	header{
+		width: 100%;
+		height: 150px;
+		background-image: url(../img/reflejo.png);
+	}
+	
+	nav{
+		width: 100%;
+		height: 60px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		background-color: #faffd4;
+	}
+
+	footer{
+		width: 100%;
+		height: 55px;
+		background-color: #43a1f5;
+	}
+
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		padding-top: 3%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		font-size: 19px;
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;	
+		color: #faffd4;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	#menu p{
+		font-size: 30px;
+		text-decoration: none;
+		float: left;
+		padding-top: 8px;
+		padding-left: 20px;
+		color: #faffd4;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 1.5%;
+	}
+
+	.prod{
+		font-size: 60px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 200px;
+	}
+
+	.up{
+		float: left;
+		padding-top: 5px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 17px;
+		text-align: center;
+	}
+
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+
+	.titulo{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	#pdf{
+		width: 68%;
+		height: 65vh;
+		margin-left: 17%;
+		margin-top: 3%;
+		margin-bottom: 70px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	#colores{
+		text-align: center;
+		padding-bottom: 70px;
+	}
+
+	#colores li{
+		display: inline;
+	}
+	
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	iframe{
+		width: 70%;
+		height: 80vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 16%;
+	}
+}
+
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+/*1200*/
+
+@media(min-width: 1200px) and (max-width: 1399px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #6b8399;
+	}
+
+	header{
+		width: 100%;
+		height: 150px;
+		background-image: url(../img/reflejo.png);
+	}
+	
+	nav{
+		width: 100%;
+		height: 60px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		background-color: #faffd4;
+	}
+
+	footer{
+		width: 100%;
+		height: 55px;
+		background-color: #43a1f5;
+	}
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		padding-top: 3%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		font-size: 19px;
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;	
+		color: #faffd4;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	#menu p{
+		font-size: 30px;
+		text-decoration: none;
+		float: left;
+		padding-top: 8px;
+		padding-left: 20px;
+		color: #faffd4;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 1.5%;
+	}
+
+	.prod{
+		font-size: 60px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 200px;
+	}
+
+	.up{
+		float: left;
+		padding-top: 5px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 17px;
+		text-align: center;
+	}
+
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+
+	.titulo{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	#pdf{
+		width: 70%;
+		height: 30vh;
+		margin-left: 17%;
+		margin-top: 3%;
+		margin-bottom: 70px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	#colores{
+		text-align: center;
+		padding-bottom: 70px;
+	}
+
+	#colores li{
+		display: inline;
+	}
+	
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	iframe{
+		width: 70%;
+		height: 30vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 16%;
+	}
+}
+
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+/*992*/
+
+@media(min-width: 992px) and (max-width: 1199px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #6b8399;
+	}
+
+	header{
+		width: 100%;
+		height: 150px;
+		background-image: url(../img/reflejo.png);
+	}
+	
+	nav{
+		width: 100%;
+		height: 60px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		background-color: #faffd4;
+	}
+
+	footer{
+		width: 100%;
+		height: 55px;
+		background-color: #43a1f5;
+	}
+
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		padding-top: 3%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		font-size: 19px;
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;	
+		color: #faffd4;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	#menu p{
+		font-size: 30px;
+		text-decoration: none;
+		float: left;
+		padding-top: 8px;
+		padding-left: 20px;
+		color: #faffd4;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 1.5%;
+	}
+
+	.prod{
+		font-size: 60px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 200px;
+	}
+
+	.up{
+		float: left;
+		padding-top: 5px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 17px;
+		text-align: center;
+	}
+
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+
+	.titulo{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	#pdf{
+		width: 80%;
+		height: 30vh;
+		margin-left: 11%;
+		margin-top: 3%;
+		margin-bottom: 70px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+		padding-bottom: 30px;
+	}
+
+	#colores{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	#colores li{
+		display: inline;
+	}
+	
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	iframe{
+		width: 80%;
+		height: 70vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 11%;
+	}
+}
+
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+/*768*/
+
+@media(min-width: 768px) and (max-width: 991px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #6b8399;
+	}
+
+	header{
+		width: 100%;
+		height: 150px;
+		background-image: url(../img/reflejo.png);
+	}
+	
+	nav{
+		width: 100%;
+		height: 60px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		background-color: #faffd4;
+	}
+
+	footer{
+		width: 100%;
+		height: 55px;
+		background-color: #43a1f5;
+	}
+
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		padding-top: 3%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		font-size: 19px;
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;	
+		color: #faffd4;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	#menu p{
+		font-size: 30px;
+		text-decoration: none;
+		float: left;
+		padding-top: 8px;
+		padding-left: 20px;
+		color: #faffd4;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 1.5%;
+	}
+
+	.prod{
+		font-size: 60px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 200px;
+	}
+
+	.up{
+		float: left;
+		padding-top: 5px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 17px;
+		text-align: center;
+	}
+
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+
+	.titulo{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	#pdf{
+		width: 95%;
+		height: 50vh;
+		margin-left: 2%;
+		margin-top: 3%;
+		margin-bottom: 70px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+		padding-bottom: 30px;
+	}
+
+	#colores{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	#colores li{
+		display: inline;
+		padding: 11px;
+	}
+
+	.color1{
+		width: 100px;
+		height: 100px;
+	}
+	
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	iframe{
+		width: 80%;
+		height: 70vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 11%;
+	}
+}
+
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+/*576*/
+
+@media(min-width: 576px) and (max-width: 767px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #6b8399;
+	}
+
+	header{
+		width: 100%;
+		height: 150px;
+		background-image: url(../img/reflejo.png);
+	}
+	
+	nav{
+		width: 100%;
+		height: 60px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		background-color: #faffd4;
+	}
+
+	footer{
+		width: 100%;
+		height: 55px;
+		background-color: #43a1f5;
+	}
+
+	#header-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		padding-top: 4%;
+	}
+
+	#header-alberto a{
+		text-decoration: none;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+
+	.nombre-alberto{
+		font-family: 'Gloria Hallelujah', cursive;
+		text-align: center;
+		font-size: 3em;
+		padding-top: 4%;
+		color: #faffd4;
+		text-shadow: 4px 1px 3px rgba(150, 150, 150, 1);
+	}
+
+	#menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#menu li{
+		display: inline;
+	}
+
+	#menu li a{
+		font-size: 19px;
+		text-decoration: none;
+		padding: 10px;
+		margin-top: 10px;	
+		color: #faffd4;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	#menu p{
+		font-size: 30px;
+		text-decoration: none;
+		float: left;
+		padding-top: 8px;
+		padding-left: 20px;
+		color: #faffd4;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	/*INDEX*/
+	/*INDEX*/
+	/*INDEX*/
+
+	.yo{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 1.5%;
+	}
+
+	.prod{
+		font-size: 60px;
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 1.5%;
+	}
+
+	.nat{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #BF3A3E;
+		text-align: center;
+		padding-bottom: 200px;
+	}
+
+	.up{
+		float: left;
+		padding-top: 5px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 17px;
+		text-align: center;
+	}
+
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+	/*RELEVAMIENTO*/
+
+	.titulo{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: #BF3A3E;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	#pdf{
+		width: 95%;
+		height: 50vh;
+		margin-left: 2%;
+		margin-top: 3%;
+		margin-bottom: 70px;
+	}
+
+	/*DISENO*/
+	/*DISENO*/
+	/*DISENO*/
+
+	.tipografia_uno{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_uno h2{
+		font-size: 21px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.tipografia_uno p{
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.tipografia_dos{
+		width: 95%;
+		font-size: 18px;
+		color: #333333;
+		padding-left: 3%;
+		text-align: center;
+	}
+
+	.tipografia_dos h2{
+		font-size: 21px;
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+
+	.tipografia_dos p{
+		font-size: 18px;
+		font-family: 'Gloria Hallelujah', cursive;
+		padding-bottom: 30px;
+	}
+
+	#colores{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	#colores li{
+		display: inline;
+		padding: 11px;
+	}
+
+	.color1{
+		width: 100px;
+		height: 100px;
+	}
+	
+	/*WEB*/
+	/*WEB*/
+	/*WEB*/
+
+	iframe{
+		width: 95%;
+		height: 50vh;
+		margin-bottom: 70px;
+		margin-top: 50px;
+		margin-left: 2%;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,957 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/pattern.jpg);
+}
+
+main{
+	width: 90%;
+	height: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 90px;
+	background-image: url(../img/reflejo.png);
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 45px;
+	text-align: center;
+	color: #faffd4;
+	padding-top: 3px;
+}
+
+nav{
+	width: 100%;
+	height: 5px;
+	background-color: #BF3A3E;
+}
+
+section{
+	width: 100%;
+	height: 955px;
+	background-color: #faffd4;
+	font-family: 'Montserrat', sans-serif;
+	color: #4d4d4d;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #43a1f5;
+	font-family: 'Montserrat', sans-serif;
+	color: #faffd4;
+}
+
+.bordes{
+	border:none 0px #000000;
+	border-radius: 120px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+.sombra{
+	box-shadow: 13px 12px 20px #333133;
+}
+
+#columnas{
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 2px solid #BF3A3E;
+	padding-top: 40px;
+	margin-left: 20px;
+	padding-right: 20px;
+	font-size: 19px;
+	text-align: center;
+}
+
+#columnas a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.negrita{
+	font-weight: bold;
+	color: #43a1f5;
+}
+
+.bordes_alberto{
+	border:none 0px #000000;
+	border-radius: 25px;
+	width: 255px;
+	height: 190px;
+}
+
+.vespa{
+	border:none 0px #000000;
+	border-radius: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.up{
+	float: left;
+	padding-top: 1px;
+	padding-left: 20px;
+	opacity: 0.7;
+	border:none 0px #000000;
+	border-radius: 11px;
+}
+
+#pie a{
+	text-decoration: none;
+	color: #faffd4;
+	font-weight: bold;
+}
+
+#pie{
+	padding-top: 15px;
+	padding-left: 600px;
+}
+
+#multifondo{
+	background:
+	url(../img/planta.png)right bottom no-repeat,
+	url(../img/fondo.png)center no-repeat;
+}
+
+#video{
+	padding-left: 20px;
+	padding-top: 4%;
+	float: left;
+}
+
+#luca{
+	float: left;
+	padding-left: 5%;
+	padding-top: 2%;
+}
+
+.borde2{
+	border:none 5px #000000;
+	border-radius: 24px;
+}
+
+.foto{
+	float: left;
+	padding-top: 3%;
+}
+
+#disney{
+	float: right;
+	padding-right: 20px;
+}
+
+
+/* XX-Large Devices */
+/* XX-Large Devices */
+/* XX-Large Devices */
+/* XX-Large Devices */
+/* XX-Large Devices */
+/* XX-Large Devices */
+/* XX-Large Devices */
+
+@media(min-width: 1400px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 90%;
+		height: 1045px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 100%;
+		height: 90px;
+		background-image: url(../img/reflejo.png);
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 45px;
+		text-align: center;
+		color: #faffd4;
+		padding-top: 3px;
+	}
+
+	nav{
+		width: 100%;
+		height: 5px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		height: 1000px;
+		background-color: #faffd4;
+		font-family: 'Montserrat', sans-serif;
+		color: #4d4d4d;
+	}
+
+	footer{
+		width: 100%;
+		height: 50px;
+		background-color: #43a1f5;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	.bordes{
+		border:none 0px #000000;
+		border-radius: 120px;
+		padding-left: 50px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		float: left;
+	}
+
+	.sombra{
+		box-shadow: 13px 12px 20px #333133;
+	}
+
+	#columnas{
+		column-count: 3;
+		column-gap: 40px;
+		column-rule: 2px solid #BF3A3E;
+		padding-top: 40px;
+		margin-left: 20px;
+		padding-right: 20px;
+		font-size: 19px;
+		text-align: center;
+	}
+
+	#columnas a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.negrita{
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.bordes_alberto{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin: auto;
+		width: 255px;
+		height: 190px;
+	}
+
+	.vespa{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.up{
+		float: left;
+		padding-top: 1px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 15px;
+		padding-left: 580px;
+	}
+
+	#multifondo{
+		background:
+		url(../img/planta.png)right bottom no-repeat,
+		url(../img/fondo.png)center;
+	}
+
+	#video{
+		padding-left: 20px;
+		padding-top: 4%;
+		float: left;
+	}
+
+	#luca{
+		float: left;
+		padding-left: 7%;
+		padding-top: 4%;
+	}
+
+	.borde2{
+		border:none 5px #000000;
+		border-radius: 24px;
+	}
+
+	.foto{
+		float: left;
+		padding-top: 3%;
+		padding-left: 6%;
+	}
+	#disney{
+		float: right;
+		display: none;
+	}
+
+	#alberto{
+		display: none;
+	}
+}
+
+/* X-Large Devices */
+/* X-Large Devices */
+/* X-Large Devices */
+/* X-Large Devices */
+/* X-Large Devices */
+/* X-Large Devices */
+/* X-Large Devices */
+
+@media(min-width: 1200px) and (max-width: 1399px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 90%;
+		height: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 100%;
+		height: 90px;
+		background-image: url(../img/reflejo.png);
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 45px;
+		text-align: center;
+		color: #faffd4;
+		padding-top: 3px;
+	}
+
+	nav{
+		width: 100%;
+		height: 5px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		height: 1025px;
+		background-color: #faffd4;
+		font-family: 'Montserrat', sans-serif;
+		color: #4d4d4d;
+	}
+
+	footer{
+		width: 100%;
+		height: 50px;
+		background-color: #43a1f5;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	.bordes{
+		border:none 0px #000000;
+		border-radius: 120px;
+		padding-left: 50px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		float: left;
+	}
+
+	.sombra{
+		box-shadow: 13px 12px 20px #333133;
+	}
+
+	#columnas{
+		column-count: 3;
+		column-gap: 40px;
+		column-rule: 2px solid #BF3A3E;
+		padding-top: 40px;
+		margin-left: 20px;
+		padding-right: 20px;
+		font-size: 19px;
+		text-align: center;
+	}
+
+	#columnas a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.negrita{
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.bordes_alberto{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.vespa{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.up{
+		float: left;
+		padding-top: 1px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 15px;
+		padding-left: 500px;
+	}
+
+	#multifondo{
+		background:
+		url(../img/planta.png)right bottom no-repeat,
+		url(../img/fondo.png)center;
+	}
+
+	#video{
+		padding-left: 20px;
+		padding-top: 3%;
+		float: left;
+	}
+
+	#luca{
+		float: left;
+		padding-left: 2%;
+		padding-top: 2%;
+	}
+
+	.borde2{
+		border:none 5px #000000;
+		border-radius: 24px;
+	}
+
+	.foto{
+		float: left;
+		padding-top: 1%;
+		padding-left: 2%;
+	}
+	#disney{
+		float: right;
+		display: none;
+	}
+
+	#alberto{
+		display: none;
+	}
+}
+
+/* Medium Devices */
+/* Medium Devices */
+/* Medium Devices */
+/* Medium Devices */
+/* Medium Devices */
+/* Medium Devices */
+/* Medium Devices */
+
+@media(min-width: 768px) and (max-width: 991px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 95%;
+		height: 1500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 100%;
+		height: 90px;
+		background-image: url(../img/reflejo.png);
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 45px;
+		text-align: center;
+		color: #faffd4;
+		padding-top: 3px;
+	}
+
+	nav{
+		width: 100%;
+		height: 5px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		height: 1355px;
+		background-color: #faffd4;
+		font-family: 'Montserrat', sans-serif;
+		color: #4d4d4d;
+	}
+
+	footer{
+		width: 100%;
+		height: 50px;
+		background-color: #43a1f5;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	.bordes{
+		border:none 0px #000000;
+		border-radius: 120px;
+		padding-left: 50px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		float: left;
+	}
+
+	.sombra{
+		box-shadow: 13px 12px 20px #333133;
+	}
+
+	#columnas{
+		column-count: 2;
+		column-gap: 40px;
+		column-rule: 2px solid #BF3A3E;
+		padding-top: 40px;
+		margin-left: 20px;
+		padding-right: 20px;
+		font-size: 19px;
+		text-align: center;
+	}
+
+	#columnas a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.negrita{
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.bordes_alberto{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.vespa{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.up{
+		float: left;
+		padding-top: 1px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 15px;
+		padding-left: 315px;
+	}
+
+	#multifondo{
+		background:
+		url(../img/fondo.png)center;
+	}
+
+	#video{
+		padding-left: 20px;
+		padding-top: 6.5%;
+		float: left;
+	}
+
+	#luca{
+		float: left;
+		padding-left: 5%;
+		padding-top: 6.5%;
+	}
+
+	.borde2{
+		border:none 5px #000000;
+		border-radius: 24px;
+	}
+
+	.foto{
+		float: left;
+		padding-top: 2%;
+		display: none;
+	}
+	#disney{
+		float: right;
+		display: none;
+	}
+
+	#alberto{
+		display: none;
+	}
+}
+
+/* Small Devices */
+/* Small Devices */
+/* Small Devices */
+/* Small Devices */
+/* Small Devices */
+/* Small Devices */
+/* Small Devices */
+
+@media(min-width: 576px) and (max-width: 767px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 100%;
+		height: 3000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 100%;
+		height: 90px;
+		background-image: url(../img/reflejo.png);
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 45px;
+		text-align: center;
+		color: #faffd4;
+		padding-top: 3px;
+	}
+
+	nav{
+		width: 100%;
+		height: 5px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		height: 2855px;
+		background-color: #faffd4;
+		font-family: 'Montserrat', sans-serif;
+		color: #4d4d4d;
+	}
+
+	footer{
+		width: 100%;
+		height: 50px;
+		background-color: #43a1f5;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	.bordes{
+		padding-left: 40px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		display: none;
+	}
+
+	.sombra{
+		box-shadow: 13px 12px 20px #333133;
+	}
+
+	#columnas{
+		column-count: 1;
+		column-gap: 40px;
+		column-rule: 2px solid #BF3A3E;
+		padding-top: 40px;
+		margin-left: 40px;
+		padding-right: 20px;
+		font-size: 19px;
+		text-align: left;
+	}
+
+	#columnas a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.negrita{
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.bordes_alberto{
+		border:none 0px #000000;
+		border-radius: 25px;
+		width: 449px;
+		height: 384px;
+	}
+
+	.vespa{
+		display: none;
+	}
+
+	.up{
+		float: left;
+		padding-top: 1px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 15px;
+		padding-left: 230px;
+	}
+
+	#multifondo{
+		background:
+		url(../img/fondo.png)center;
+	}
+
+	#video{
+		padding-left: 85px;
+		padding-top: 6.5%;
+		float: left;
+	}
+
+	#luca{
+		float: left;
+		padding-left: 5%;
+		padding-top: 2%;
+		display: none;
+	}
+
+	.borde2{
+		border:none 5px #000000;
+		border-radius: 24px;
+	}
+
+	.foto{
+		float: right;
+		padding-top: 2%;
+		padding-right: 6%;
+		display: none;
+	}
+
+	#disney{
+		float: right;
+	}
+
+	#espacio{
+		display: none;
+	}
+}
+
+/* Large Devices */
+/* Large Devices */
+/* Large Devices */
+/* Large Devices */
+/* Large Devices */
+/* Large Devices */
+/* Large Devices */
+
+@media(min-width: 992px) and (max-width: 1199px){
+	body{
+		background-image: url(../img/pattern.jpg);
+	}
+
+	main{
+		width: 90%;
+		height: 1250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 100%;
+		height: 90px;
+		background-image: url(../img/reflejo.png);
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 45px;
+		text-align: center;
+		color: #faffd4;
+		padding-top: 3px;
+	}
+
+	nav{
+		width: 100%;
+		height: 5px;
+		background-color: #BF3A3E;
+	}
+
+	section{
+		width: 100%;
+		height: 1105px;
+		background-color: #faffd4;
+		font-family: 'Montserrat', sans-serif;
+		color: #4d4d4d;
+	}
+
+	footer{
+		width: 100%;
+		height: 50px;
+		background-color: #43a1f5;
+		font-family: 'Montserrat', sans-serif;
+		color: #faffd4;
+	}
+
+	.bordes{
+		border:none 0px #000000;
+		border-radius: 120px;
+		padding-left: 50px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		float: left;
+	}
+
+	.sombra{
+		box-shadow: 13px 12px 20px #333133;
+	}
+
+	#columnas{
+		column-count: 3;
+		column-gap: 40px;
+		column-rule: 2px solid #BF3A3E;
+		padding-top: 40px;
+		margin-left: 20px;
+		padding-right: 20px;
+		font-size: 19px;
+		text-align: center;
+	}
+
+	#columnas a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.negrita{
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.bordes_alberto{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.vespa{
+		border:none 0px #000000;
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.up{
+		float: left;
+		padding-top: 1px;
+		padding-left: 20px;
+		opacity: 0.7;
+		border:none 0px #000000;
+		border-radius: 11px;
+	}
+
+	#pie a{
+		text-decoration: none;
+		color: #faffd4;
+		font-weight: bold;
+	}
+
+	#pie{
+		padding-top: 15px;
+		padding-left: 390px;
+	}
+
+	#multifondo{
+		background:
+		url(../img/planta.png)right bottom no-repeat,
+		url(../img/fondo.png)center;
+	}
+
+	#video{
+		padding-left: 50px;
+		padding-top: 9%;
+		float: left;
+	}
+
+	#luca{
+		float: left;
+		padding-left: 12%;
+		padding-top: 9%;
+	}
+
+	.borde2{
+		border:none 5px #000000;
+		border-radius: 24px;
+	}
+
+	.foto{
+		float: right;
+		padding-top: 7%;
+		padding-right: 6%;
+		display: none;
+	}
+
+	#disney{
+		float: right;
+		display: none;
+	}
+
+	#alberto{
+		display: none;
+	}
+}
